@@ -1,15 +1,17 @@
 import './utils/env';
 import './utils/db';
+
+import bodyParser from 'body-parser';
 import cors from 'cors';
-import path from 'path';
+import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import express from 'express';
+import path from 'path';
+
+import * as errorHandler from './middlewares/errorHandler';
+import json from './middlewares/json';
 import routes from './routes';
 import logger from './utils/logger';
-import bodyParser from 'body-parser';
-import json from './middlewares/json';
-import * as errorHandler from './middlewares/errorHandler';
 
 const app = express();
 

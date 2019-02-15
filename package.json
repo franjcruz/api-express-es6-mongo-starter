@@ -1,7 +1,7 @@
 {
-  "name": "express-es6-api-starter",
+  "name": "blockchain-exchange-ms",
   "version": "1.0.0",
-  "description": "Api express starter",
+  "description": "Microservice blockchain exchange",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && babel src -D --out-dir dist",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franjcruz/score-gameboard-backend.git"
+    "url": "git+https://github.com/kryptopayio/blockchain-exchange-MS.git"
   },
   "lint-staged": {
     "*.js": [
@@ -29,9 +29,9 @@
   "author": "Fran Cruz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/franjcruz/score-gameboard-backend/issues"
+    "url": "https://github.com/kryptopayio/blockchain-exchange-MS/issues"
   },
-  "homepage": "https://github.com/franjcruz/score-gameboard-backend#readme",
+  "homepage": "https://github.com/kryptopayio/blockchain-exchange-MS#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
