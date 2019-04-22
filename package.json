@@ -1,7 +1,7 @@
 {
-  "name": "blockchain-exchange-ms",
+  "name": "litecoin-wallet",
   "version": "1.0.0",
-  "description": "Microservice blockchain exchange",
+  "description": "Litecoin wallet instance",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && babel src -D --out-dir dist",
@@ -51,8 +51,10 @@
     "supertest": "^3.1.0"
   },
   "dependencies": {
+    "@npm-kryptotech/configuration_center_ms": "^1.4.31",
     "body-parser": "^1.18.3",
     "boom": "^7.2.0",
+    "compression": "^1.6.2",
     "cors": "^2.8.4",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
