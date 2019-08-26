@@ -1,5 +1,7 @@
 import { Router } from 'express';
 
+import v1 from './v1';
+
 /**
  * Contains all API routes for the application.
  */
@@ -12,6 +14,6 @@ router.get('/', (req, res) => {
   });
 });
 
-// router.use('/users', usersController);
+router.use('/v1', v1);
 
 export default router;
