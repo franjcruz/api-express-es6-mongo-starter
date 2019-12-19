@@ -1,12 +1,12 @@
 import { Router } from 'express';
 
-import requestsController from '../controllers/requests';
+import requestController from '../controllers/request';
 
 /**
  * Contains all API routes for the v1 path.
  */
 let router = Router();
 
-router.use('/', requestsController);
+router.use('/', requestController);
 
 export default router;

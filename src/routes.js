@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import v1 from './v1';
+import v1 from './routes/v1';
 
 /**
  * Contains all API routes for the application.
